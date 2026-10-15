@@ -1,0 +1,12 @@
+{
+  "name": "@f0x_mulder/req-timing",
+  "version": "1.0.0",
+  "description": "Tiny request-timing helper: measure handler latency with a one-line wrapper.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": ["timing", "latency", "metrics", "middleware"],
+  "files": ["index.js", "postinstall.js", "README.md"]
+}
